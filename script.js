@@ -36,6 +36,7 @@ function playGame(){
   displayResult(numberGuess);
   
   
+  
 }
 
 /**
@@ -64,7 +65,7 @@ function displayResult(numberGuess)
 function initGame(){
   // *CODE GOES BELOW HERE *
   correctNumber=getRandomNumber();
-  guessCollection=[];
+  guessCollection;
   resetResultContent();
   resetGuessHistory();
 }
